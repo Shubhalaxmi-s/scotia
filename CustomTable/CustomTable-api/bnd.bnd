@@ -1,0 +1,9 @@
+Bundle-Name: CustomTable-api
+Bundle-SymbolicName: com.custom.table.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.custom.table.exception,\
+	com.custom.table.model,\
+	com.custom.table.service,\
+	com.custom.table.service.persistence
+-includeresource: META-INF/service.xml=../CustomTable-service/service.xml

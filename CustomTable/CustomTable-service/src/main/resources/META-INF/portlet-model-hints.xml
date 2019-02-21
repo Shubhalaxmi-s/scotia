@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<hint-collection name="TEXTAREA">
+		<hint name="max-length">1000</hint>
+	</hint-collection>
+	<model name="com.custom.table.model.customTable">
+		<field name="uuid" type="String" />
+		<field name="customTableId" type="long" />
+		<field name="data" type="String">
+			<hint-collection name="TEXTAREA" />
+		</field>
+	</model>
+</model-hints>
