@@ -1,0 +1,7 @@
+Bundle-Name: JAVAX-RS
+Bundle-SymbolicName: com.st.rest.application
+Bundle-Version: 1.0.0
+Liferay-Configuration-Path: /configuration
+Import-Package: !org.apache.avalon.framework.logger,\
+				!org.apache.log,\
+				*
